@@ -9,6 +9,7 @@ function Card(props) {
       <div className={cls("glass", styles.container)}>
         <div className={styles.cardHeaderWrapper}>
           <h1>This is a title</h1>
+          <h1>This is a title updated</h1>
           <h2 className={styles.cardHeader}>{props.name}</h2>
         </div>
         <div className={styles.cardImageWrapper}>
