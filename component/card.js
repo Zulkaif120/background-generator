@@ -14,6 +14,7 @@ function Card(props) {
           <Image
             className={styles.cardImage}
             src={props.imgUrl}
+            alt="log image"
             width={260}
             height={160}
           ></Image>
