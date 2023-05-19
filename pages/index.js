@@ -39,6 +39,7 @@ export default function Home(props) {
         </ul>
       </nav>
       <main className={styles.main}>
+        <h1>This is main</h1>
         {/* <h1 className={styles.title}>Coffee Connoisseur</h1> */}
         <Banner
           buttontext="View stores nearby"
